@@ -15,9 +15,7 @@ int max = a;
 if(a > b) max = a;
 if(a < b) max = b;
 
-Console.Write("Число которые больше:");
-
-Console.WriteLine(max);
+Console.WriteLine($"Самое большое число из чисел {a}, {b} : = {max}");
 
 
 
@@ -52,7 +50,7 @@ int max = a;
 
 
 
-Console.WriteLine(max);
+Console.WriteLine($"Самое большое число из чисел {a}, {b}, {c} : = {max}");
 
 
 
